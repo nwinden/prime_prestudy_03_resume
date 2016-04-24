@@ -1,0 +1,126 @@
+body{
+	font-family: arial;
+	font-size:16px;
+	background-color:rgb(80,80,80);
+}
+
+main{
+	width:900px;
+	height:auto;
+	margin: auto;
+	padding:10px;
+	background-color: rgb(210,210,210);
+	border-radius:5px;
+}
+
+.magic {
+	display:none;
+}
+
+
+button{
+	display:inline;
+	position: absolute;
+	top:500px;
+	left:50%;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+header{
+	width:900px;
+	height: 75px;
+	margin: 0 0 10px 0;
+	border-bottom-style: solid;
+	border-bottom-width: medium;
+}
+
+header section{
+	float:left;
+	width:300px;
+}
+
+header p {
+	margin:10px;
+}
+
+.headCenter{
+	text-align:center;
+}
+
+.headRight{
+	text-align:right;
+
+}
+
+.aboutme{
+	display:inline-block;
+	height:auto;
+	width:900px;
+
+}
+
+.aboutme .pic, .aboutme .summary {
+	float:left;
+	height:auto;
+	width:425px;
+	margin-left: 15px;
+
+}
+
+h3{
+	text-align: center;
+	border-top-style: solid;
+	border-top-width: medium;
+	border-bottom-style: solid;
+	border-bottom-width: medium;
+	padding:5px 0 5px 0;
+	margin:15px 0 15px 0;
+}
+
+.job {
+	height:auto;
+	width:auto;
+
+}
+
+.job header{
+	height:auto;
+	width:auto;
+	background-color: rgb(195,195,195);
+	border-top-style: solid;
+	border-top-width: thin;
+	border-bottom-style: none;
+}
+
+ .job h4, .job div, .job p, .job ul{
+ 	margin-left:20px;
+}
+
+.job div {
+
+	width:auto;
+}
+
+div section{
+	display:inline-block;
+	width: auto;
+}
+
+div section:nth-child(odd){
+	
+	float:left;
+	font-style:italic;
+}
+	
+div section:nth-child(even){
+	float:right;
+}
+
+.edu {
+	margin-left:30px;
+}
+	
+
